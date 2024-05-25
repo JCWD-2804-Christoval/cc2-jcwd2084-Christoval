@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 6em;
+        }
+
+        .container {
+            border: 1px solid black;
+            border-radius: 6px;
+            padding-top: 2em;
+            padding-bottom: 2em;
+            margin-bottom: 5em;
+        }
+
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            background-color: orange;
+        }
+
+        .tblName{
+            padding: 1em;
+        }
+
+        .tblFood{
+            padding: 1em;
+        }
+
+        .img {
+            height: 100%;
+            width: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" style="padding:2em">
+        <div>
+            <table style="margin-left:auto; margin-right:auto">
+                <tr>
+                    <th>No.</th>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Food</th>
+                    <th>Group</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td style="height: 15em; width: 15em"><img class="img" src="" alt="smiling cat"></td>
+                    <td class="tblName">Smiling Cat</td>
+                    <td class="tblFood">Healthy Fish</td>
+                    <td style="padding:1em">
+                        <input type="radio" name="1" value="vertebrate"/>
+                        <label style="font-weight:bold;">Vertebrate</label>
+                        <input type="radio" name="1" value="invertebrate"/>
+                        <label style="font-weight:bold;">Invertebrate</label>
+                    </td>
+                </tr> <!--Ulang 4 kali lagi-->
+            </table>
+        </div>
+    </div>
+</body>
+</html>
