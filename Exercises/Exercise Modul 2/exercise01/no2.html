@@ -23,17 +23,27 @@
             background-color: orange;
         }
 
+        .tblNo{
+            text-align: center;
+        }
+
         .tblName{
             padding: 1em;
+            text-align: center;
         }
 
         .tblFood{
             padding: 1em;
+            text-align: center;
         }
 
         .img {
             height: 100%;
-            width: auto;
+            width: 100%;
+            object-fit: cover;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
 
     </style>
@@ -50,17 +60,65 @@
                     <th>Group</th>
                 </tr>
                 <tr>
-                    <td>1</td>
-                    <td style="height: 15em; width: 15em"><img class="img" src="" alt="smiling cat"></td>
-                    <td class="tblName">Smiling Cat</td>
-                    <td class="tblFood">Healthy Fish</td>
+                    <td class="tblNo">1</td>
+                    <td style="height: 100px; width: 100px; padding: 15px"><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/1024px-Cat_August_2010-4.jpg" alt="smiling cat"></td>
+                    <td class="tblName">Smiling <sup>Cat</sup></td>
+                    <td class="tblFood">Healthy <sub>Fish</sub></td>
                     <td style="padding:1em">
-                        <input type="radio" name="1" value="vertebrate"/>
+                        <input type="radio" name="1" value="vertebrate" selected/>
                         <label style="font-weight:bold;">Vertebrate</label>
                         <input type="radio" name="1" value="invertebrate"/>
                         <label style="font-weight:bold;">Invertebrate</label>
                     </td>
                 </tr> <!--Ulang 4 kali lagi-->
+                <tr>
+                    <td class="tblNo">2</td>
+                    <td style="height: 100px; width: 100px; padding: 15px"><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Dog_-_%E0%B4%A8%E0%B4%BE%E0%B4%AF-6.JPG/800px-Dog_-_%E0%B4%A8%E0%B4%BE%E0%B4%AF-6.JPG" alt="happy dog"></td>
+                    <td class="tblName">Happy <sup>Dog</sup></td>
+                    <td class="tblFood">Fresh <sub>Meat</sub></td>
+                    <td style="padding:1em">
+                        <input type="radio" name="2" value="vertebrate" selected/>
+                        <label style="font-weight:bold;">Vertebrate</label>
+                        <input type="radio" name="2" value="invertebrate"/>
+                        <label style="font-weight:bold;">Invertebrate</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tblNo">3</td>
+                    <td style="height: 100px; width: 100px; padding: 15px"><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg/800px-015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg" alt="confused chimp"></td>
+                    <td class="tblName">Confused <sup>Chimpanzee</sup></td>
+                    <td class="tblFood">Sweet <sub>Banana</sub></td>
+                    <td style="padding:1em">
+                        <input type="radio" name="3" value="vertebrate" selected/>
+                        <label style="font-weight:bold;">Vertebrate</label>
+                        <input type="radio" name="3" value="invertebrate"/>
+                        <label style="font-weight:bold;">Invertebrate</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tblNo">4</td>
+                    <td style="height: 100px; width: 100px; padding: 15px"><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Jelly_cc11.jpg" alt="frisky jellyfish"></td>
+                    <td class="tblName">Frisky <sup>Jellyfish</sup></td>
+                    <td class="tblFood">Saltwater <sub>Plankton</sub></td>
+                    <td style="padding:1em">
+                        <input type="radio" name="4" value="vertebrate"/>
+                        <label style="font-weight:bold;">Vertebrate</label>
+                        <input type="radio" name="4" value="invertebrate" selected/>
+                        <label style="font-weight:bold;">Invertebrate</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tblNo">5</td>
+                    <td style="height: 100px; width: 100px; padding: 15px"><img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sepioteuthis_sepioidea_%28Caribbean_Reef_Squid%29.jpg/220px-Sepioteuthis_sepioidea_%28Caribbean_Reef_Squid%29.jpg" alt="swimming squid"></td>
+                    <td class="tblName">Swimming <sup>Squid</sup></td>
+                    <td class="tblFood">Small <sub>Fish</sub></td>
+                    <td style="padding:1em">
+                        <input type="radio" name="5" value="vertebrate"/>
+                        <label style="font-weight:bold;">Vertebrate</label>
+                        <input type="radio" name="5" value="invertebrate" selected/>
+                        <label style="font-weight:bold;">Invertebrate</label>
+                    </td>
+                </tr>
             </table>
         </div>
     </div>
