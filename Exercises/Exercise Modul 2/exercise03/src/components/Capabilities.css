@@ -1,0 +1,17 @@
+.capabilities {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fdd835;
+  }
+  
+  .capabilities-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .capability {
+    width: 30%;
+    margin: 20px 0;
+  }
+  

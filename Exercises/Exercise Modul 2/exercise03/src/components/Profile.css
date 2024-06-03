@@ -1,0 +1,24 @@
+.profile {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .profile-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .about-me, .details {
+    width: 45%;
+  }
+  
+  .details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .details ul li {
+    margin: 10px 0;
+  }
+  
