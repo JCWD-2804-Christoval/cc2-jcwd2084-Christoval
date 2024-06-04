@@ -9,7 +9,7 @@ const Profile: React.FC = () => {
         <div className="about-me">
           <h3>About me</h3>
           <p>I'm a fullstack web developer with experience in web design, programming, and more.</p>
-          <img src="profile-pic.jpg" alt="Profile" className="profile-pic" />
+          <img src="profile-pic.png" alt="Profile" className="profile-pic" />
         </div>
         <div className="details">
           <h3>Details</h3>
