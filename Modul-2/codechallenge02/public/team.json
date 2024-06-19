@@ -1,0 +1,51 @@
+[
+	{
+		"id": "1",
+		"name": "Daffascript",
+		"title": "CEO",
+		"email": "daffa@example.com",
+		"image": "/images/daffa.jpg"
+	},
+	{
+		"id": "2",
+		"name": "Christovscript",
+		"title": "Vice-CEO",
+		"email": "christoval@example.com",
+		"image": "/images/christoval.jpg"
+	},
+	{
+		"id": "3",
+		"name": "Dhaviscript",
+		"title": "COO",
+		"email": "dhavi@example.com",
+		"image": "/images/dhavi.jpg"
+	},
+	{
+		"id": "4",
+		"name": "Niascript",
+		"title": "CMO",
+		"email": "sitikurnia@example.com",
+		"image": "/images/nia.jpg"
+	},
+	{
+		"id": "5",
+		"name": "Lukasscript",
+		"title": "CFO",
+		"email": "lukasjiun@example.com",
+		"image": "/images/lukas.jpg"
+	},
+	{
+		"id": "6",
+		"name": "Gamascript",
+		"title": "CIO",
+		"email": "papagama@example.com",
+		"image": "/images/gama.jpg"
+	},
+	{
+		"id": "7",
+		"name": "Fayashscript",
+		"title": "CTO",
+		"email": "fayash@example.com",
+		"image": "/images/fayash.jpg"
+	}
+]
